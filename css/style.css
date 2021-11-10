@@ -1,17 +1,28 @@
 /* -------------------------------------- *
 General Styles
 * --------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=UnifrakturMaguntia&display=swap');
+
 body {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Cantarell', sans-serif;
   font-size: 20px;
+  
+}
+
+header {
+  background-image: url("../images/banners/fog.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100px;
 }
 
 h1,
 h2,
 h3 {
-  font-size: 36px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 72px;
+  font-family: 'UnifrakturMaguntia', sans-serif;
 }
 main,
 header h1,
@@ -24,11 +35,17 @@ header {
 }
 nav a {
   padding-right: 20px;
+  color:seagreen;
 }
 nav a:hover {
   color: #333;
 }
 nav {
-  background-color: #ccc;
+  background-color: gold;
   padding: 12px;
+}
+
+.inspiro-img {
+  width:400px;
+  padding-top: 100px;
 }
